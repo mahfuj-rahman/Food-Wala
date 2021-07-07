@@ -1,0 +1,165 @@
+#search{
+    background: #008cff;
+}
+#search .right{
+    text-align: right;
+    width: 50%;
+}
+
+input[type=submit]{
+    border: 10px;
+    font-size: 10px;
+}
+
+input[type=text]{
+    border: 10px;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.searchkoradorkar{
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.backsho{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.6
+}
+
+.left, .right{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2{
+    line-height: 1.2;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+.button{
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #215cff, #18beff);
+    border-radius: 22px;
+    box-shadow: 1px 2px 10px 5px #34bfffa9;
+    font-weight: 700;
+}
+
+
+span{
+    color: #0066ff;
+}
+p{
+    width: 80%;
+}
+
+#upper p{
+    color: #444444;
+    margin: 20px 0;
+}
+
+#aboutfoodwala {
+    background:url('./images/Frame 57.jpg') no-repeat;
+}
+
+#aboutfoodwala img{
+width: 100%;
+padding-top: 285px;
+}
+
+#aboutfoodwala p{
+   margin: 20px 0px 40px 0px; 
+}
+
+#food{
+ padding: 60px 0;
+}
+
+.single h3{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.info h2, .info p{
+    padding-bottom: 20px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+#food .single,
+#testimonial .single{
+    width: 28%;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 2px 10px 5px #0000001a;
+    height: auto;
+}
+
+ #food .single p,
+ #testimonial .single p{
+      width: 100%;
+      margin: 5px 0 20px 0;
+      text-align: left;
+  }
+
+#food img,
+#testimonial img{
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.boxes .backsho{
+    height: 700px;
+}
+
+
+
+#footer{
+    background: black;
+}
+#footer .backsho{
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 40%;
+    margin: auto;
+    padding: 50px 0;
+}
+#footer h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+}
+#footer p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
